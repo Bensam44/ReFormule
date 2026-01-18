@@ -373,7 +373,122 @@ Si tu veux, je peux aussi te générer :
 - un **diagramme d’architecture**  
 - un **plan de fichiers complet**  
 - un **template de backend Node.js prêt à coller**
+_______________________________________________________________________________________________________________________________________________________________________________________
+                                                                    RESUME de ce qu'il reste à faire:
+_________________________________________________________________________________________________________________________________________________________________________________________
+Voici ce qu’il reste à faire, dans l’ordre le plus intelligent et le plus léger pour toi.
 
+🧱 1. Créer la structure du backend dans ton repo GitHub
+On prépare juste les dossiers vides, sans code pour l’instant.
 
+Structure prévue :
+
+Code
+/src
+  /routes
+  /services
+  /middleware
+  /utils
+index.js
+package.json
+.gitignore
+C’est une étape rapide, propre, qui prépare le terrain.
+
+🟦 2. Initialiser un projet Node.js minimal
+On va créer un package.json propre, avec juste ce qu’il faut :
+
+express
+
+dotenv
+
+cors
+
+axios
+
+Rien de plus pour l’instant.
+
+🟩 3. Créer les endpoints vides
+Juste les fichiers, sans logique :
+
+/reformulate
+
+/health
+
+/usage
+
+Ça te donne une base claire.
+
+🟧 4. Héberger le backend sur Render (Starter)
+On crée :
+
+un service Web
+
+on connecte ton repo GitHub
+
+Render déploie automatiquement
+
+tu obtiens ton URL publique (ex : https://reformule-backend.onrender.com)
+
+Ton backend existe officiellement.
+
+🟥 5. Connecter l’extension à TON backend
+On change juste une ligne dans ton extension :
+
+Avant :
+→ l’extension appelle Base44
+
+Après :
+→ l’extension appelle ton backend
+
+Ton backend appelle Base44 à ta place.
+
+🟨 6. Ajouter les protections anti‑abus
+On ajoute progressivement :
+
+rate‑limit
+
+anti‑boucle
+
+anti‑bot
+
+quotas Free / Pro / Business
+
+soft‑limit Business
+
+logs
+
+monitoring
+
+Tu seras blindé.
+
+🟪 7. Migrer vers DeepSeek (plus tard)
+Quand tu seras prêt, on change juste :
+
+Code
+services/base44.js → services/deepseek.js
+Et ton backend devient 10× moins cher.
+
+🎯 Résumé clair
+Tu as déjà fait :
+
+✔️ Création du repo
+✔️ Ajout du README
+✔️ Plan d’architecture validé
+
+Il reste :
+
+Créer la structure du backend
+
+Initialiser Node.js
+
+Ajouter les endpoints vides
+
+Déployer sur Render
+
+Connecter l’extension
+
+Ajouter les protections
+
+Migrer vers DeepSeek plus tard
 
 
