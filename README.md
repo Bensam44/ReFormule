@@ -83,17 +83,14 @@ Détection automatique :
 
 ## 📊 5. Quotas & Plans
 
-### Free
-- 100 reformulations / mois.
+# 🎛️ Plans ReFormule — Quotas & Prix (Backend Officiel)
 
-### Pro
-- 300 reformulations / mois.
+| Plan       | Prix / mois                 | PC inclus        | Tokens visibles | Tokens internes (backend) | Vitesse / Priorité        |
+|------------|------------------------------|------------------|-----------------|----------------------------|----------------------------|
+| **Free**   | 0 €                          | 1                | 6 000 / mois    | 6 000 / mois               | Lent                       |
+| **Pro**    | 5 €                          | 1                | Illimité        | 400 000 / jour             | Normal                     |
+| **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 400 000 / jour             | Prioritaire (plus rapide)  |
 
-### Business
-- Illimité (officiel).
-- Soft‑limit interne :
-  - 5000 / jour
-  - 50 000 / mois
 
 ---
 
@@ -490,5 +487,19 @@ Connecter l’extension
 Ajouter les protections
 
 Migrer vers DeepSeek plus tard
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+               NOUVEAU PLAN REFORMULE
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🎛️ Plans ReFormule — Quotas & Prix (Backend Officiel)
+
+| Plan       | Prix / mois                 | PC inclus        | Tokens visibles | Tokens internes (backend) | Vitesse / Priorité        |
+|------------|------------------------------|------------------|-----------------|----------------------------|----------------------------|
+| **Free**   | 0 €                          | 1                | 6 000 / mois    | 6 000 / mois               | Lent                       |
+| **Pro**    | 5 €                          | 1                | Illimité        | 400 000 / jour             | Normal                     |
+| **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 400 000 / jour             | Prioritaire (plus rapide)  |
 
 
