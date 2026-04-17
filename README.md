@@ -502,4 +502,35 @@ Migrer vers DeepSeek plus tard
 | **Pro**    | 5 €                          | 1                | Illimité        | 400 000 / jour             | Normal                     |
 | **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 400 000 / jour             | Prioritaire (plus rapide)  |
 
+_____________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________
 
+                                                         BACKEND -étapes/étapes:
+      ----------------------------------------------------------------------------------------------------------------------------------------------
+# Backend ReFormule – Étapes
+
+| Étape | Module / logique                  | Rôle principal                                      |
+|-------|-----------------------------------|-----------------------------------------------------|
+| 1     | Gestion des utilisateurs          | Identifier l’utilisateur + récupérer son plan (Free / Pro / Business). |
+| 2     | Gestion des quotas                | Appliquer les limites : 6k/mois Free, 400k/jour Pro & Business. |
+| 3     | Anti‑abus                         | Bloquer le spam, les boucles, les requêtes trop rapides. |
+| 4     | Système de priorité               | Décider si la requête va dans Free / Pro / Business. |
+| 5     | Files d’attente                   | 3 files séparées : FreeQueue, ProQueue, BusinessQueue. |
+| 6     | Ordonnancement des requêtes       | Faire passer Business en premier, puis Pro, puis Free. |
+| 7     | Appel DeepSeek                    | Envoyer la requête au modèle + compter les tokens. |
+| 8     | Suivi de consommation             | Enregistrer : nombre de requêtes, tokens, date, plan. |
+| 9     | Facturation (Pro & Business)      | Gérer Stripe : abonnements, paiements, renouvellements. |
+| 10    | Mini interface admin (optionnel)  | Voir l’état des files, erreurs, usage (même en JSON). |
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 ETAPE 1: 
+                              ------------------------------------------------------
+                              Contenu exact de l’Étape 1
+Sous‑partie	Description
+1.1 — Identification utilisateur	On récupère l’ID utilisateur (Firebase Auth).
+1.2 — Lecture du plan	On lit dans la base : Free / Pro / Business.
+1.3 — Vérification du statut	On vérifie si le plan est actif (paiement OK).
+1.4 — Vérification du nombre de PC (Business)	Pour Business : vérifier si l’appareil est autorisé.
+1.5 — Injection dans la requête	On ajoute req.user et req.plan pour les étapes suivantes.
+_______________________________________________________________________________________________________________________________________________________________
+
+                                    
