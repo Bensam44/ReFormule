@@ -532,5 +532,46 @@ Sous‑partie	Description
 1.4 — Vérification du nombre de PC (Business)	Pour Business : vérifier si l’appareil est autorisé.
 1.5 — Injection dans la requête	On ajoute req.user et req.plan pour les étapes suivantes.
 _______________________________________________________________________________________________________________________________________________________________
+| Sous‑étape | Description | Statut |
+| --- | --- | --- |
+| 1.1 | Identification utilisateur (API key) | ✔ Fait |
+| 1.2 | Lecture du plan (placeholder) | ✔ Fait |
+| 1.3 | Vérification du statut | ✔ Fait |
+| 1.4 | Vérification du nombre de PC | ✔ Fait |
+| 1.5 | Injection dans req.user (placeholder) | ✔ Fait |
 
-                                    
+    ____________________________________________________________
+     ÉTAPE 2 — Connexion Firestore
+Sous‑étape	Description	Statut
+2.1	Initialisation Firestore dans server.js	✔ Fait
+2.2	Middleware : lecture utilisateur Firestore	🟡 En cours (code prêt, à intégrer)
+2.3	Test du middleware Firestore	⬜ À faire
+2.4	Ajout des quotas / limites	⬜ À faire
+2.5	Ajout des logs (usage, erreurs)	⬜ À faire
+2.6	Sécurité (anti-abus, anti-spam)	⬜ À faire
+
+----------------------------------------------------------------------------
+🟦 ÉTAPE 3 — Connexion de l’extension au backend
+Sous‑étape	Description	Statut
+3.1	Appels fetch vers /reformuler	⬜ À faire
+3.2	Appels fetch vers /corriger	⬜ À faire
+3.3	Passage de l’UID dans les headers	⬜ À faire
+3.4	Gestion des erreurs côté extension	⬜ À faire
+
+___________________________________________________________________________
+🟪 ÉTAPE 4 — DeepSeek
+Sous‑étape	Description	Statut
+4.1	Intégration API DeepSeek	⬜ À faire
+4.2	Optimisation prompts	⬜ À faire
+4.3	Gestion des tokens	⬜ À faire
+____________________________________________________________________________
+🟧 ÉTAPE 5 — Plans & Monétisation
+Sous‑étape	Description	Statut
+5.1	Structure des plans	⬜ À faire
+5.2	Stripe	⬜ À faire
+5.3	Webhooks	⬜ À faire
+
+
+
+
+
