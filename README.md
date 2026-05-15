@@ -89,7 +89,7 @@ Détection automatique :
 |------------|------------------------------|------------------|-----------------|----------------------------|----------------------------|
 | **Free**   | 0 €                          | 1                | 6 000 / mois    | 6 000 / mois               | Lent                       |
 | **Pro**    | 5 €                          | 1                | Illimité        | 400 000 / jour             | Normal                     |
-| **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 400 000 / jour             | Prioritaire (plus rapide)  |
+| **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 1M / jour             | Prioritaire (plus rapide)  |
 
 
 ---
@@ -500,7 +500,7 @@ Migrer vers DeepSeek plus tard
 |------------|------------------------------|------------------|-----------------|----------------------------|----------------------------|
 | **Free**   | 0 €                          | 1                | 6 000 / mois    | 6 000 / mois               | Lent                       |
 | **Pro**    | 5 €                          | 1                | Illimité        | 400 000 / jour             | Normal                     |
-| **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 400 000 / jour             | Prioritaire (plus rapide)  |
+| **Business** | 20 € pour 5 PC + 3 €/PC sup | 5 (extensible)   | Illimité        | 1M / jour             | Prioritaire (plus rapide)  |
 
 _____________________________________________________________________________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________
